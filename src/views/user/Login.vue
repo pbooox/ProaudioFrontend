@@ -106,12 +106,12 @@ export default {
             this.form.email = "piaf-vue@coloredstrategies.com";
             this.form.password = "piaf123";
             this.$v.form.$touch();
-           // if (!this.$v.form.$anyError) {
+           if (!this.$v.form.$anyError) {
                 this.login({
                     email: this.form.email,
                     password: this.form.password
                 });
-            //}
+            }
         }
     },
     watch: {

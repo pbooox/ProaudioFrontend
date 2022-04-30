@@ -4,12 +4,13 @@ export const defaultMenuType = 'menu-default' // 'menu-default', 'menu-sub-hidde
 export const adminRoot = '/app';
 export const searchPath = `${adminRoot}/pages/miscellaneous/search`
 export const buyUrl = 'https://1.envato.market/nEyZa'
-export const apiUrl = 'https://api.coloredstrategies.com';
+// export const apiUrl = 'https://api.coloredstrategies.com';
+export const apiUrl = 'http://localhost:5000';
 
 export const subHiddenBreakpoint = 1440
 export const menuHiddenBreakpoint = 768
 
-export const defaultLocale = 'en'
+export const defaultLocale = 'es'
 export const defaultDirection = 'ltr'
 export const localeOptions = [
   { id: 'en', name: 'English LTR', direction: 'ltr' },
